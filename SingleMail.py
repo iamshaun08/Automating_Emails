@@ -1,3 +1,7 @@
+"""
+This case represents sending a single mail to a single receiver. Change the sender email and password before you use it!
+"""
+
 import yagmail
 
 def singleMail():

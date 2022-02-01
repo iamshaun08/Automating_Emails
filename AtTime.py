@@ -1,4 +1,9 @@
-import yagmail
+"""
+This case represents sending a single mail to the receiver at a particular time of the day.
+Change the sender, receiver and password before you test it!
+"""
+
+import yagmail  #to log in to your gmail and send
 import time
 from datetime import datetime as dt
 

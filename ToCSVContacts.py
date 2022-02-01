@@ -1,3 +1,7 @@
+"""
+This case represents sending emails to multiple receivers. Change the sender and password before you test it!
+"""
+
 import yagmail
 import pandas
 

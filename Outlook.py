@@ -1,3 +1,8 @@
+"""
+This case represents sending an email from your outlook account.
+Change the sender, receiver and password before you test it!
+"""
+
 import smtplib
 
 sender = 'sender@outlook.com'

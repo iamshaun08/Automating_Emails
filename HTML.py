@@ -1,3 +1,8 @@
+"""
+This case represents sending an email from your outlook account where we can add HTML code in the body of the mail, along with attachments!
+Change the sender, receiver and password before you test it!
+"""
+
 import smtplib
 from email.mime.text import MIMEText    #for message body
 from email.mime.multipart import MIMEMultipart   #for from, to and subject

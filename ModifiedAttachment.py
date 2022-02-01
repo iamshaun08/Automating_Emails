@@ -1,7 +1,10 @@
-import pandas
-import yagmail
-import os
+"""
+This case represents sending emails to multiple receivers with modified and personalized attachments.
+Change the sender and password before you test it!
+"""
 
+import pandas   #ro read csv
+import yagmail
 
 def modifiedAttachment():
     sender = 'sender@gmail.com'
